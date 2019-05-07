@@ -136,7 +136,7 @@ Create a new user account named grader
 
 Grant grader sudo permission
 
-Create a SSH key pair for grader using ssh-ten
+Create a SSH key pair for grader using ssh-keygen
 
 ## Prepare to deploy your project
 
