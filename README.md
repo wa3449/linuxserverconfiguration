@@ -123,19 +123,25 @@ http://35.170.78.21.xip.io
 ```
 
 ## Secure your server
+
 Update all installed packages
+
 Change SSH port from 22 to 2200
+
 Configure UFW for SSH port 2200, HTTP, and NTP
 
 ## Give grader access
 
 Create a new user account named grader
+
 Grant grader sudo permission
+
 Create a SSH key pair for grader using ssh-ten
 
 ## Prepare to deploy your project
 
 Install and configure apache2 web server
+
 Install and configure a new PostgreSQL database user named catalog with limited permissions to the catalog db
 
 ## Install git
@@ -143,10 +149,15 @@ Install and configure a new PostgreSQL database user named catalog with limited 
 ## Deploy the Item Catalog project
 
 Clone the project from github
-Configure project to use the PostgreSQL db - note user:password in connect (would hide in a production implemenation)
+
+Configure project to use the PostgreSQL db - note user:password in connect (would hide in a production implementation)
+
 Configure project to access local files (for Google login)
+
 Configure Google access with new DNS address: ip.xip.io
+
 Configure apache and WSGI
+
 Configure apache (security.conf) to disallow access to .git directory
 
 ## Usage
